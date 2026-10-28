@@ -1,7 +1,7 @@
 import math
 
 def calcular_hipotenusa(cateto_a, cateto_b):
-    hipotenusa = math.sqrt((cateto_a ** 2) + (cateto_b ** 2))
+    hipotenusa = math.hypot(cateto_a, cateto_b)
     return hipotenusa
 
 cateto_a = float(input("Digite o primeiro cateto: "))
